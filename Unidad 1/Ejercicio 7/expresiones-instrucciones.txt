@@ -1,0 +1,10 @@
+1)- int x = 10; // Línea 1
+2)- x = x + 5; // Línea 2
+3)- System.out.println(x); // Línea 3
+
+Respuestas
+1)- 10 es una expresión mientras que int x = 10 es una instrucción.
+	Esta ordenando guardar el valor 10 dentro de la variable x
+2)- x + 5 es una expresión mientras que  x = x + 5 es una instrucción.
+	Esta ordenando actualizar la variable x con el valor 15
+3)- Es una instrucción, ya que se pide mostrar por consola el valor de la variable x
