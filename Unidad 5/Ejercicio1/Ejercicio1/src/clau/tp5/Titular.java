@@ -16,29 +16,5 @@ public class Titular {
         this.nombre = nombre;
         this.dni = dni;
         this.pasaporte = pasaporte;
-}
-    //Metodos set y get
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        if (nombre != null) {
-            this.nombre = nombre;
-        }  
-    }
-
-    public int getDni() {
-        return dni;
-    }
-
-    public void setDni(int dni) {
-        if (dni >= 0 ) {
-            this.dni = dni;
-        }
-        
-    }
-    
-    
+}   
 }

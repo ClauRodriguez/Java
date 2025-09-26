@@ -21,24 +21,5 @@ public class Pasaporte {
         this.titular = titular;
         this.foto = foto;
 }
-    //Metodos set y get
-    public int getNumero() {
-        return numero;
-}
-
-    public void setNumero(int numero) {
-        this.numero = numero;
-}
-
-    public Date getFechaEmision() {
-        return fechaEmision;
-}
-
-    public void setFechaEmision(Date fechaEmision) {
-        if (fechaEmision != null) {
-            this.fechaEmision = fechaEmision;
-        }        
-    
-}
 
 }
