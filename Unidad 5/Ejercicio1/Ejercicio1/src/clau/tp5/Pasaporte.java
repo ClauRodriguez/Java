@@ -15,11 +15,12 @@ public class Pasaporte {
     private Foto foto;
     
     //Constructor
-    public Pasaporte(int numero, Date fechaEmision, Titular titular, Foto foto) {
+    public Pasaporte(int numero, Date fechaEmision, Titular titular,
+            String imagen, String formato) {
         this.numero = numero;
         this.fechaEmision = fechaEmision;
         this.titular = titular;
-        this.foto = foto;
+        this.foto = new Foto(imagen, formato);
 }
 
 }
