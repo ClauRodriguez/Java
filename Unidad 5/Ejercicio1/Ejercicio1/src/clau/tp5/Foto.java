@@ -7,11 +7,10 @@ package clau.tp5;
  * @author Rodriguez
  */
 public class Foto {
-    private int imagen;
-    private String formato;
+    private String imagen, formato;
     
     //Constructor
-    public Foto(int imagen, String formato) {
+    public Foto(String imagen, String formato) {
         this.imagen = imagen;
         this.formato = formato;
 }
