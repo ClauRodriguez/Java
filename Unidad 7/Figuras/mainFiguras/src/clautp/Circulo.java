@@ -1,0 +1,27 @@
+package clautp;
+
+
+public class Circulo extends Figura {
+    private double radio;
+    
+    
+    public Circulo(String nombre, double radio) {
+        super(nombre);
+        this.radio = radio;
+    }
+    
+    @Override
+    public double calcularArea() {
+        return Math.PI * radio * radio;
+    }
+    
+    // Getter y setter
+    public double getRadio() {
+        return radio;
+    }
+    
+    public void setRadio(double radio) {
+        this.radio = radio;
+    }
+}
+
