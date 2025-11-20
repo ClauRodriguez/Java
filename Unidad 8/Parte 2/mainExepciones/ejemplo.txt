@@ -1,0 +1,11 @@
+Este es un archivo de ejemplo creado por Claudio
+para demostrar el manejo de excepciones.
+
+Comision: 10
+
+
+Linea 7 del archivo
+Linea 8 del archivo
+
+¡El archivo se lee correctamente!
+
